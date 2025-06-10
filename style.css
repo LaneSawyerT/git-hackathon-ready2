@@ -9,14 +9,18 @@ body {
     background-color: #f8f9fa; /* Greyish white */
     padding: 20px;
     width: 80%;
-    height: 80%;
-    border-radius: 5px;
+    height: 100%;
+    border-radius: 0px;
 }
 .smaller-content {
     background-color: #ffffff; /* White */
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+#container {
+    height: 100vh;
 }
 
 @media (max-width: 768px) {
